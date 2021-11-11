@@ -1,0 +1,31 @@
+{
+    "name": "11ty-template",
+    "version": "1.0.0",
+    "description": "A starter template for Eleventy (11ty)",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx @11ty/eleventy --serve",
+        "test": "npx "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ctdocken/11ty-template.git"
+    },
+    "author": "Corey Docken",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ctdocken/11ty-template/issues"
+    },
+    "homepage": "https://www.coreydocken.com",
+    "devDependencies": {
+        "@11ty/eleventy": "^0.12.0",
+        "@11ty/eleventy-plugin-rss": "^1.1.2",
+        "eslint": "^6.8.0",
+        "eslint-plugin-prettier": "^3.4.1",
+        "prettier": "1.19.1"
+    },
+    "eslintIgnore": [
+        "dist/*"
+    ],
+    "dependencies": {}
+}
