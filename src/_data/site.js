@@ -1,19 +1,18 @@
 module.exports = {
     layout: 'layouts/default.njk',
     url: 'https://www.example.com',
-    name: '11ty Template',
-    subtitle: 'A sample site using Eleventy',
+    name: `Brad's Website`,
+    subtitle: `Showing Me, To You`,
     author: {
-        fullName: 'Author',
-        biography:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue turpis, ornare sed tortor ut, lacinia aliquam nisl. Phasellus tellus turpis, fermentum vitae commodo ac, euismod sed magna. Nunc laoreet elementum tellus, eget commodo nisi suscipit nec.'
+        fullName: 'Brad Kremers',
+        biography:"Brad is a rock climbing instructor and curious computer user. He lives in a van with his fiance and basset hound wherever they can find a place to park."
     },
     primaryNav: [
         { title: 'Uses', subtitle: 'How I Work', url: '/uses' },
         { title: 'Now', subtitle: "What I'm Doing", url: '/now' }
     ],
     socialMedia: [
-        { title: 'Facebook', subtitle: '', url: '//www.facebook.com' },
+        { title: 'Facebook', subtitle: 'where is facebook?', url: '//www.facebook.com' },
         { title: 'Instagram', subtitle: '', url: '//www.instagram.com' },
         { title: 'Twitter', subtitle: '', url: '//www.twitter.com' },
         { title: 'LinkedIn', subtitle: '', url: '//www.linkedin.com' },

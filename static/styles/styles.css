@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Julius+Sans+One&display=swap');
 
 :root {
-    --main-bg-color: #f7fafb;
-    --main-primary-color: #ff3347;
+    --main-bg-color: #888888;
+    --main-primary-color: #74ff33;
     --main-secondary-color: #03749c;
-    --main-text-color: #222529;
+    --main-text-color: #ffffff;
     --main-faded-color: #66747e;
 
     --main-mobile-breakpoint: 600px;
@@ -230,10 +230,11 @@ footer {
     margin-bottom: 1rem;
     padding: 0.75rem;
 
-    &__timestamp {
-        color: var(--main-faded-color);
-        font-size: 0.8rem;
-        font-weight: bold;
-        line-height: 0.9rem;
-    }
+   
+}
+.article-card__timestamp {
+    color: var(--main-faded-color);
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 0.9rem;
 }

@@ -1,8 +1,8 @@
 ---
-title: Sample Post
+title: Brad
 date: 2020-02-26
 categories:
-    -
+    - test
 ---
 
 Hello
