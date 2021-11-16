@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Julius+Sans+One&display=swap');
 
 :root {
-    --main-bg-color: #888888;
-    --main-primary-color: #74ff33;
-    --main-secondary-color: #03749c;
+    --main-bg-color: #03749c;
+    --main-primary-color: #eeb539;
+    --main-secondary-color: #9c9c9c;
     --main-text-color: #ffffff;
-    --main-faded-color: #66747e;
+    --main-faded-color: #00000044;
 
     --main-mobile-breakpoint: 600px;
 
